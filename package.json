@@ -1,0 +1,27 @@
+{
+  "name": "todo-ddl",
+  "version": "1.0.2",
+  "description": "Todo manager with DDLs..",
+  "main": "index.js",
+  "repository": "https://github.com/iotcat/todo-ddl",
+  "author": "iotcat <i@iotcat.me>",
+  "license": "Apache-2.0",
+  "bin": {
+    "td": "index.js",
+    "td-server": "server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "boxen": "^4.2.0",
+    "cli-table": "^0.3.1",
+    "colors": "^1.4.0",
+    "conf": "^6.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "md5": "^2.2.1",
+    "ora": "^4.0.3",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.3",
+    "yargs": "^15.1.0"
+  }
+}
