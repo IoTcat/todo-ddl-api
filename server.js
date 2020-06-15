@@ -20,7 +20,7 @@ fs.exists(__dirname + '/var/data.json', function(exists) {
 
 app.listen(13233 /*default port*/, () => console.log('todo-ddl listening on port 13233!'));
 
-app.post('/todo-ddl/', (req, res) => {
+app.post('/', (req, res) => {
 	let query = req.body;
 	query.data = JSON.parse(query.data);
 	if(!query.action || !query.email || !query.data){
