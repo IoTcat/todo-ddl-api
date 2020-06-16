@@ -22,4 +22,4 @@ yargs = require(__dirname + '/modules/log.js')(yargs);
 /* push */
 yargs = require(__dirname + '/modules/sync.js')(yargs);
 
-argv = yargs.epilogue("hhh").argv;
+argv = yargs.epilogue("-----------------------").argv;
